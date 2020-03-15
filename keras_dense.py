@@ -20,8 +20,6 @@ def format_concrete_data():
   n_cols = predictors_norm.shape[1] # number of predictors
   return predictors_norm, target
 
-
-
 def regression_model():
     # create model
     model = Sequential()
